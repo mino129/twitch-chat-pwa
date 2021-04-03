@@ -21,7 +21,7 @@ fetch("https://api.frankerfacez.com/v1/user/39daph").then(function(response) {
 const tmi = require('tmi.js');
 const options = {
     options: {
-        clientId: "s1zchsh3ith4zr3vk1a8mxhpz0oaqv",
+        clientId: "",
         debug: true
     }, 
     connection: {
@@ -29,8 +29,8 @@ const options = {
         reconnect: true
     },
     identity: {
-        username: "ttmino_",
-        password: "oauth:c1jrg54cqgilyzlmkl6tufi2w5148z"
+        username: "",
+        password: "oauth:"
     },
     channels: [ "#39daph" ]
 };
